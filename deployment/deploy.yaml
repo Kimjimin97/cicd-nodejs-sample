@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hellonode
-          image: docker.io/u28/cicd-nodejs-sample
+          image: docker.io/jimin9707/cicd-nodejs-sample
           imagePullPolicy: Always
           env:
             - name: PORT
